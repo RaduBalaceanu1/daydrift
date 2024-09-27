@@ -16,5 +16,7 @@ struct daydriftApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
+        
+        radel este TARGET_OS_EMBEDDED
     }
 }
