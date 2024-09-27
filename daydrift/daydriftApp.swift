@@ -15,8 +15,8 @@ struct daydriftApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            Text("radel este cel mai tare")
         }
         
-        radel este TARGET_OS_EMBEDDED
     }
 }
